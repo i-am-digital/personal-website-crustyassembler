@@ -11,7 +11,7 @@ Steps
     c. http://www.free-css.com/free-css-templates
     d. https://html5up.net/
 3. Create your website!
-4. Create a blog on blogger using your I Am Digital account and link it to your site.
+4. Link your blogger page.
 5. Link your twitter account.
 6. Add your stack overflow account.
 
