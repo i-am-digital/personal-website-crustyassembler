@@ -1,7 +1,7 @@
 # Personal Website
 As a digital professional your online brand is important.  Find out more about personal branding https://www.quicksprout.com/the-complete-guide-to-building-your-personal-brand/
 
-Your first step to making a professional online brand is to great your website and associated social media presence.
+Your first step to making a professional online brand is to create your website and associated social media presence.
 
 Steps
 1.  Create a personal website using github pages.  This guide - https://pages.github.com/ - will show you how to great a repo that auto deploys - for free!
