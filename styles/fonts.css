@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Ideoma Liner;
+    src: url('../fonts/ideoma_LINER.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Skirmisher;
+    src: url('../fonts/skirmishergradital.ttf');
+}
+
+@font-face {
+    font-family: Soft Elegance;
+    src: url('../fonts/Soft_Elegance.ttf');
+}
+
+@font-face {
+    font-family: Konami Code;
+    src: url('../fonts/konami.ttf');
+}
+
+@font-face {
+    font-family: NES Controller;
+    src: url('../fonts/NES_Controller_MrShrike.ttf');
+}
+
+@font-face {
+    font-family: Paint Cans;
+    src: url('../fonts/PaintCans_09_FREE.otf');
+}
+
+@font-face {
+    font-family: The Blob;
+    src: url('../fonts/blob.ttf');
+}

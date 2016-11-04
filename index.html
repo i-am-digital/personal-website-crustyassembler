@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Phone</title>
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+      html {
+        cursor: url('images/cursor.gif'), auto;
+      }
+      
+      body {
+        color: #EEE;
+        background-image: url('images/orb.gif'), url('images/background.jpg');
+        background-size: contain, cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center, left top;
+        background-color: #000;
+        font-family: 'Soft Elegance';
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      
+      .sitewrap hr {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #DD0048, rgba(0, 0, 0, 0));
+        border: 0; 
+        height: .1em;
+      }
+      
+      .header {
+        text-align: center;
+        margin-bottom: 2em;
+        overflow: hidden;
+      }
+      
+      .header * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      .header h1 {
+        position: relative;
+        display: inline;
+        z-index: 1;
+        font-family: 'Ideoma Liner';
+        color: #7DF9FF;
+        text-shadow: 2px 2px #E656C4;
+        font-size: 3em;
+      }
+      
+      .header h1 a {
+        text-decoration: none;
+      }
+      
+      .header h2 {
+        position: absolute;
+        font-family: 'Skirmisher';
+        color: #DD0048;
+        font-size: 2em;
+        -webkit-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+        z-index: 2;
+        left: 6em;
+        right: 0;
+        top: .5em;
+      }
+      
+      #hi {
+        position: relative;
+        height: 3em;
+        top: .6em;
+        right: -.5em;
+      }
+      
+      .sitewrap {
+        border-top: 3px solid #7DF9FF;
+        background-color: #000;
+      }
+      
+      .sitewrap:before, .sitewrap:after { 
+        content: ""; 
+        position: absolute; 
+        background-image: linear-gradient(#7DF9FF, transparent); 
+        top: -3px; 
+        bottom: -3px; 
+        width: 3px; 
+      } 
+      
+      .sitewrap:before { 
+        left: -3px; 
+      } 
+      
+      .sitewrap:after { 
+        right: -3px; 
+      }
+      
+      .s {
+        position: fixed;
+        display: none;
+        bottom: -5px;
+        right: 25em;
+        width: 20%;
+        overflow: visible !important;
+      }
+      
+      .si {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+      }
+      
+      #c {
+        display: inline-block;
+        text-align: center;
+        color: #7DF9FF;
+      }
+      
+      #c a {
+        text-decoration: none;
+      }
+      
+      #c p:first-of-type {
+        font-family: "Konami Code";
+        margin-bottom: 0;
+      }
+      
+      #c p:last-of-type {
+        font-family: "NES Controller";
+        margin: 0;
+      }
+      
+      #f {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img id="hi" alt="This website is under construction!" src="images/construction.gif">
+      <h1>Erik's</h1>
+      <h2>Web-Space</h2>
+    </div>
+    <div class="sitewrap">
+      <h1>Wow!</h1>
+      <p>This is my super cool website that I ripped from <a href="https://te1eph0ne.neocities.org">HERE</a>!</p>
+      <p>Read all about it <a href="https://crustyassembler.github.io/neocities-rip.html">HERE</a>!</p>
+      <img src="images/cade.jpg" alt="My cat is really cute!"/>
+      <hr>
+      <div id="f">
+        <div id="c">
+          <a href="code.html">
+            <p>uuddlrlrba</p>
+            <p>START</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/mousetrap.min.js"></script>
+    <script src="js/mousetrap-pause.min.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
+</html>
